@@ -197,6 +197,12 @@ class MoviePlayer2(MoviePlayer):
         MoviePlayer.__init__(self, session, service)
         self.skinName = 'MoviePlayer'
 
+    def up(self):
+        pass
+
+    def down(self):
+        pass
+
     def leavePlayer(self):
         self.close()
 
